@@ -127,15 +127,18 @@ Exactly as required in the assignment.
 > The ORM layer and schema are fully compatible with PostgreSQL or MySQL as required by the assignment.
 
 ---
+## ⚙️ Running the Application Locally
 
-⚙️ Running the Application Locally
----
+### Backend
+
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python run.py
 
+### Frontend
 
 cd frontend
 npm install
