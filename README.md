@@ -129,7 +129,7 @@ Exactly as required in the assignment.
 ---
 
 ⚙️ Running the Application Locally
-
+---
 cd backend
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
