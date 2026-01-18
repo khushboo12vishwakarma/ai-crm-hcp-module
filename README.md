@@ -128,48 +128,6 @@ Exactly as required in the assignment.
 
 ---
 
-## 🚀 Evaluator Quick Start (Task 1)
-
-1. Start the backend FastAPI server
-2. Start the frontend React application
-3. Open the **Log Interaction Screen**
-4. Log an HCP interaction using chat input
-5. Observe:
-   - Auto-filled structured form
-   - LangGraph tool execution
-   - Conversational editing of interactions
-
-All **5 LangGraph tools** are demonstrated in the accompanying video submission.
-
----
-
-## 📁 Project Structure
-
-```text
-ai-crm-hcp-module
-├── backend
-│   ├── app
-│   │   ├── agents        # LangGraph agent and tools
-│   │   ├── routes        # FastAPI endpoints
-│   │   ├── models        # ORM models
-│   │   ├── schemas       # Pydantic schemas
-│   │   └── utils         # LLM and helper utilities
-│   ├── run.py
-│   ├── requirements.txt
-│   └── test_*.py
-│
-├── frontend
-│   ├── src
-│   │   ├── components
-│   │   ├── store         # Redux state management
-│   │   └── pages
-│   ├── public
-│   ├── package.json
-│   └── vite.config.js
-│
-├── README.md
-└── .gitignore
----
 ⚙️ Running the Application Locally
 
 cd backend
